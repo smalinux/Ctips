@@ -1,8 +1,11 @@
 /**
 > Ideal example for Struct with pointers
 - 
-- Arrays of structures
-- 
+- Richard Reese book (uaucp) have a great figures
+- NOTE : this is a very basic example to handle single node of Person struct \n
+  but if you need larger DS like a list of Person, in this case you should use \n
+  Linked List DS, Array of ptrPerson, Make your own custom list ...
+- uaucp book have nice example for: Arrays of structures >> search for "void initializeList()"
 ========================================= */
 
 #include <stdio.h>
@@ -55,7 +58,7 @@ void processPerson()
 	// ...
 
 	printPerson(ptrPerson);
-	
+
 	// ...
 	deallocatePerson(ptrPerson);
 	free(ptrPerson);
