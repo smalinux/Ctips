@@ -1,5 +1,5 @@
 /**
-Check el array boundries before any thing
+Check el array boundaries before any thing
 */
 
 #include <stdio.h>
@@ -15,7 +15,8 @@ int main(int argc, char const *argv[])
 	int arr[ARR_SIZE];
 
 	// inset
-	if (&arr[5] <= arr && &arr[5] >= arr+ARR_SIZE) // Check el boundries first
+	if (&arr[5] <= arr && &arr[5] >= arr+ARR_SIZE) // Check el boundaries first
+		// el C lang will leave you make mistakes
 	{
 		arr[5] = 55;
 	}
